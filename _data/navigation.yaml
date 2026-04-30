@@ -1,0 +1,20 @@
+nav:
+  - title: Home
+    url: /
+    subnav:
+      - title: Bermuda
+        url: /hot-tubs/bermuda/
+      - title: Buxton
+        url: /hot-tubs/buxton/
+      - title: Delray
+        url: /hot-tubs/delray/
+      - title: Frisco
+        url: /hot-tubs/frisco/
+      - title: Laguna
+        url: /hot-tubs/laguna/
+      - title: Palm
+        url: /hot-tubs/palm/
+      - title: Sunset
+        url: /hot-tubs/sunset/
+  - title: Contact
+    url: /contact/
