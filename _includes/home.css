@@ -1,0 +1,11 @@
+      /* Homepage Custom Styles */
+      #hero {
+        background-image: url(images/home/hero.jpg);
+        height: 490px
+      }
+      @media (max-width: 576px) {
+        #hero {
+          background-image: none;
+          height: none
+        }
+      }
