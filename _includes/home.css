@@ -4,9 +4,10 @@
         background-repeat: no-repeat;
         height: 500px
       }
-      @media (max-width: 576px) {
+      @media (max-width: 575.98px) {
         #hero {
           background-image: none;
+          color: #212529 !important;
           height: auto
         }
       }
