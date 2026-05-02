@@ -1,7 +1,9 @@
       /* Homepage Custom Styles */
       #hero {
         background-image: url("images/home/hero.jpg");
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
+        background-size: 1320px;
+        height: 600px
       }
       @media (max-width: 576px) {
         #hero {
