@@ -1,13 +1,15 @@
       /* Homepage Custom Styles */
-      #hero {
-        background-image: url("images/home/hero.jpg");
-        background-repeat: no-repeat;
-        height: 500px
-      }
       @media (max-width: 575.98px) {
         #hero {
           background-image: none;
-          color: #212529 !important;
           height: auto
+        }
+      }
+      @media (min-width: 576px) {
+        #hero {
+          background-image: url("images/home/hero.jpg");
+          background-repeat: no-repeat;
+          height: 500px;
+          color: #f8f9fa
         }
       }
