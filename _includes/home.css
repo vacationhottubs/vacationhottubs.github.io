@@ -5,6 +5,7 @@
       }
       @media (max-width: 576px) {
         #hero {
-          background-image: none
+          background-image: none;
+          color: #ffffff
         }
       }
