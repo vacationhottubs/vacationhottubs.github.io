@@ -3,7 +3,7 @@
       @media (max-width: 575.99px) {
         #hero {
           background-image: none;
-          background-size: 100% auto;
+          background-size: 100%;
           height: auto
         }
       }
