@@ -1,12 +1,12 @@
       /* Homepage Custom Styles */
-      /* Remove hero image on mobile, set image height to auto */
+      /* Remove hero background image on mobile and set hero div to auto */
       @media (max-width: 575.98px) {
         #hero {
           background-image: none;
           height: auto
         }
       }
-      /* Darken hero image, make it not repeat, change font color to light, set image height to 500px */
+      /* Darken hero div, make background image not repeat, change font color to light, set div height to 500px */
       @media (min-width: 576px) {
         #hero {
           background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/home/hero.jpg");
@@ -15,7 +15,7 @@
           height: 500px
         }
       }
-      /* Minified star icons for the Reviews section */
+      /* Minified star icons for the Reviews section so don't have to include whole icon font library */
       /*!
        * Bootstrap Icons v1.13.1 (https://icons.getbootstrap.com/)
        * Copyright 2019-2024 The Bootstrap Authors
