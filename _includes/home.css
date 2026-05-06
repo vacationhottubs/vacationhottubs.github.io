@@ -1,15 +1,21 @@
       /* Homepage Custom Styles */
+      /* Remove hero image on mobile */
       @media (max-width: 575.98px) {
         #hero {
-          background-image: none;
-          height: auto
+          background-image: none
         }
       }
+      /* Darken hero image, make it not repeat, and change font color to light */
       @media (min-width: 576px) {
         #hero {
           background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/home/hero.jpg");
           background-repeat: no-repeat;
-          height: 500px;
           color: #f8f9fa
         }
       }
+      /* Minified star icons for the Reviews section */
+      /*!
+       * Bootstrap Icons v1.13.1 (https://icons.getbootstrap.com/)
+       * Copyright 2019-2024 The Bootstrap Authors
+       * Licensed under MIT (https://github.com/twbs/icons/blob/main/LICENSE)
+       */@font-face{font-display:block;font-family:bootstrap-icons;src:url("fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a") format("woff2"),url("fonts/bootstrap-icons.woff?e34853135f9e39acf64315236852cd5a") format("woff")}.bi::before,[class*=" bi-"]::before,[class^=bi-]::before{display:inline-block;font-family:bootstrap-icons!important;font-style:normal;font-weight:400!important;font-variant:normal;text-transform:none;line-height:1;vertical-align:-.125em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.bi-star-fill::before{content:"\f586"}
