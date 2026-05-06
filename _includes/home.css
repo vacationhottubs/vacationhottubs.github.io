@@ -3,8 +3,8 @@
       @media (max-width: 575.99px) {
         #hero {
           background-image: none;
-          height: auto;
-          max-width: 100%
+          background-size: 100% auto;
+          height: auto
         }
       }
       /* Darken hero div, make background image not repeat, change font color to light, set div height to 500px */
