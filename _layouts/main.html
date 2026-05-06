@@ -11,7 +11,7 @@
         padding-top: 3.3rem;
         padding-bottom: 6rem
       }
-{% if page.url == '/' %}{% include home.css %}{% endif %}
+{% if page.url == '/' %}{% include home.css %}{% else if page.url == '/contact-us' %}{% include contact-us.css %}{% endif %}
     </style>
   </head>
   <body>
@@ -23,5 +23,6 @@
     </main>
     <!-- Compress this in an include site.js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+{% if page.url == '/contact-us' %}{% include contact-us.html %}
   </body>
 </html>
