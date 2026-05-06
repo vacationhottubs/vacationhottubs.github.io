@@ -1,16 +1,18 @@
       /* Homepage Custom Styles */
-      /* Remove hero image on mobile */
+      /* Remove hero image on mobile, set image height to auto */
       @media (max-width: 575.98px) {
         #hero {
-          background-image: none
+          background-image: none;
+          height: auto
         }
       }
-      /* Darken hero image, make it not repeat, and change font color to light */
+      /* Darken hero image, make it not repeat, change font color to light, set image height to 500px */
       @media (min-width: 576px) {
         #hero {
           background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/home/hero.jpg");
           background-repeat: no-repeat;
-          color: #f8f9fa
+          color: #f8f9fa;
+          height: 500px
         }
       }
       /* Minified star icons for the Reviews section */
